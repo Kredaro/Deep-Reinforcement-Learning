@@ -41,7 +41,9 @@ simple agents like the vacuum-cleaning agent discussed previously. A simple
 
 **if** *condition,* **then** *action*
 
-<span class="figcaption_hack">Figure 1: Schematic Diagram of the Simple Reflex agents</span>
+![](https://cdn-images-1.medium.com/max/800/1*HVisXcuybnJ69ts4iOq51g.png)
+
+Figure 1: Schematic Diagram of the Simple Reflex agents
 
 Simple reflex agents are simple, but of limited intelligence. The agent will
 work only if the action can be made on the basis of *only the current percept*,
@@ -66,7 +68,9 @@ of the world it can’t see*. The agent makes a model of the world internally
 using the previous percepts and thereby reflects some of the unobserved aspects
 of the current state. 
 
-<span class="figcaption_hack">Figure 2: Schematic Diagram of the Model-based Reflex agents</span>
+![](https://cdn-images-1.medium.com/max/800/1*Tnl5lHVVxCPz4YN84si2jQ.png)
+
+Figure 2: Schematic Diagram of the Model-based Reflex agents
 
 For the agent to maintain an internal state of the world, it must have knowledge
 on  two aspects of the environment: 1) We need to know how the world evolves
@@ -85,7 +89,9 @@ desirable states in the environment. It keeps track of the world state as well
 as a set of goals it’s trying to achieve, and chooses an action that will
 (eventually) lead to the achievement of its goals.
 
-<span class="figcaption_hack">Figure 3: Schematic Diagram of the Model-based Goal-based agents</span>
+![](https://cdn-images-1.medium.com/max/800/1*Yt9N8kJ64G0Xl08fYNU3Uw.png)
+
+Figure 3: Schematic Diagram of the Model-based Goal-based agents
 
 In the reflex agents, this is not explicitly represented as the in-built rules
 maps directly from percepts to actions. For example, in a taxi-driving
@@ -116,7 +122,9 @@ states based on how “happy” the agent would be at that stage. This is define
 **utility function**, which the agents try to maximize based on the external
 performance measure. 
 
-<span class="figcaption_hack">Figure 4: Schematic Diagram of the Model-based Utility-based agents</span>
+![](https://cdn-images-1.medium.com/max/800/1*MPmd5UvttvHBuFFmGEMSPw.png)
+
+Figure 4: Schematic Diagram of the Model-based Utility-based agents
 
 Utility, similar to defining a goal, is not the only way to be rational (we
 can’t define the utility function for a vacuum cleaning agent) but, like the
@@ -149,7 +157,9 @@ models and then training them, as proposed by Alan Turing (the great) in 1950.
 Learning  also allows the agent to operate in initially unknown environments and
 to become more competent than its initial knowledge alone might allow.
 
-<span class="figcaption_hack">Figure 5: Schematic Diagram of a Learning Agent</span>
+![](https://cdn-images-1.medium.com/max/800/1*a81je9FfLJxfmw20GhRbuw.png)
+
+Figure 5: Schematic Diagram of a Learning agent
 
 A learning agent can be divided into four conceptual components. The previously
 discussed agents comes under the **performance element**, which takes in
@@ -158,7 +168,7 @@ modifying the behavior of the agent. It uses feedback from the **critic** on how
 the agent is doing and determines how the performance element should be modified
 to do better in the future. 
 
-The **problem generator **is responsible for suggesting actions that will lead
+The **problem generator** is responsible for suggesting actions that will lead
 to new and informative experiences. The performance measure commands the agent
 to do the best action, given what it knows of the current situation. But if the
 agent is willing to explore a little and do some perhaps suboptimal actions in
